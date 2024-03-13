@@ -4,8 +4,22 @@ html {
     font-family: "Urbanist", sans-serif;
 }
 
-body {
+.background_home {
     background-image: url(images/gettyimages-644105824-1523286673.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.background_history {
+    background-image: url(images/desktop-wallpaper-mexico-city-tenochtitlan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.background_visit {
+    background-image: url(images/cdmx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 1000px;
@@ -55,17 +69,17 @@ body {
     border-radius: 100px;
 }
 
-.text_home {
+.text_banner {
     text-align: center;
     padding-top: 100px;
 }
 
-.title_home {
+.title_banner {
     font-size: 50px;
     font-weight: bolder;
 }
 
-.slogan_home {
+.slogan_banner {
     font-size: 25px;
 }
 
